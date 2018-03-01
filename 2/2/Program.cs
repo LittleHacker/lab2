@@ -36,7 +36,14 @@ namespace ConsoleApplication1
                         oper = Convert.ToChar(Console.ReadLine());
                         break;
                       
-                    
+                    case 4:
+                        Console.WriteLine("Вывод:");
+                        if (oper == '+')
+                        {
+                            total = a + b;
+                            Console.WriteLine(total);
+                        }
+
                     case 5:
                         Console.WriteLine("Вы решили выйти");
                         break;
