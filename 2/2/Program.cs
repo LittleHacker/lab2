@@ -35,8 +35,14 @@ namespace ConsoleApplication1
                         Console.WriteLine("Введите оператор:");
                         oper = Convert.ToChar(Console.ReadLine());
                         break;
-                      
-                    
+
+                       else if (oper == '-')
+                        {
+                            total = a - b;
+                            Console.WriteLine(total);
+                        }
+                       
+
                     case 5:
                         Console.WriteLine("Вы решили выйти");
                         break;
