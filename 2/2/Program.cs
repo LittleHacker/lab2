@@ -37,6 +37,7 @@ namespace ConsoleApplication1
                         break;
 
                       
+
                     case 4:
                         Console.WriteLine("Вывод:");
                         if (oper == '+')
@@ -44,15 +45,16 @@ namespace ConsoleApplication1
                             total = a + b;
                             Console.WriteLine(total);
                         }
-
-
                        else if (oper == '-')
                         {
                             total = a - b;
                             Console.WriteLine(total);
                         }
-                       
-
+                        else if (oper == '*')
+                        {
+                            total = a * b;
+                            Console.WriteLine(total);
+                        }
 
                     case 5:
                         Console.WriteLine("Вы решили выйти");
